@@ -1,0 +1,72 @@
+import { SectionMeta } from '../types';
+
+export const SECTIONS: SectionMeta[] = [
+  {
+    id: 1,
+    title: 'Sezione 1: Il Sintagma (Словосочетание)',
+    russianTitle: 'Раздел 1. Словосочетание',
+    pages: 'pp. 7–126',
+    summary:
+      'I legami subordinativi tra i costituenti: concordanza (согласование), reggenza diretta e preposizionale (управление) di verbi, nomi e aggettivi, preposizioni sinonimiche e giustapposizione (примыкание).',
+    topics: [
+      { id: 'sec1-concordance', name: 'Concordanza (Согласование)', exerciseCount: 7, ruleId: 'rule-concordance' },
+      { id: 'sec1-verbal-gov', name: 'Reggenza verbale senza preposizioni', exerciseCount: 8, ruleId: 'rule-verbal-gov' },
+      { id: 'sec1-nominal-gov', name: 'Reggenza nominale e deverbali', exerciseCount: 6, ruleId: 'rule-nominal-gov' },
+      { id: 'sec1-double-gov', name: 'Doppia reggenza verbale', exerciseCount: 5, ruleId: 'rule-double-gov' },
+      { id: 'sec1-adj-gov', name: 'Reggenza di aggettivi e participi', exerciseCount: 6, ruleId: 'rule-adj-gov' },
+      { id: 'sec1-quant-gov', name: 'Reggenza dei numerali quantitativi', exerciseCount: 6, ruleId: 'rule-quant-gov' },
+      { id: 'sec1-prep-place', name: 'Preposizioni di luogo e direzione (в/на, у/около/рядом с)', exerciseCount: 8, ruleId: 'rule-prep-place' },
+      { id: 'sec1-prep-time', name: 'Preposizioni di tempo (до/перед/к, под, во время, с...по)', exerciseCount: 9, ruleId: 'rule-prep-time' },
+      { id: 'sec1-prep-cause', name: 'Preposizioni di causa (от, из, из-за, по, благодаря)', exerciseCount: 8, ruleId: 'rule-prep-cause' },
+      { id: 'sec1-prep-attrib', name: 'Preposizioni con valore determinativo (с/без, в, по)', exerciseCount: 6, ruleId: 'rule-prep-attrib' },
+      { id: 'sec1-prep-indirect', name: 'Preposizioni di oggetto indiretto (о, над, за, вместо)', exerciseCount: 7, ruleId: 'rule-prep-indirect' },
+      { id: 'sec1-prep-goal', name: 'Preposizioni di scopo (на, для, ради, в качестве)', exerciseCount: 6, ruleId: 'rule-prep-goal' },
+      { id: 'sec1-adjoining', name: 'Giustapposizione (Примыкание: infinito, avverbi, gradi)', exerciseCount: 8, ruleId: 'rule-adjoining' },
+      { id: 'sec1-lit-revision', name: 'Materiale di ripasso su testi d\'autore (Раздел 1)', exerciseCount: 8, ruleId: 'rule-lit-sec1' },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Sezione 2: La Frase Semplice (Простое предложение)',
+    russianTitle: 'Раздел 2. Простое предложение',
+    pages: 'pp. 127–263',
+    summary:
+      'Struttura del soggetto e del predicato, l\'infinito sintattico, accordo con quantitativi, membri omogenei, membri isolati (participi, gerundi, apposizioni), frasi monovarianti e ordine delle parole (tema/rema).',
+    topics: [
+      { id: 'sec2-subject-pred', name: 'Soggetto e soggetto logico al Dativo/Genitivo', exerciseCount: 8, ruleId: 'rule-subject-pred' },
+      { id: 'sec2-verbal-pred', name: 'Predicato verbale semplice e composto', exerciseCount: 6, ruleId: 'rule-verbal-pred' },
+      { id: 'sec2-nominal-pred', name: 'Predicato nominale e verbi copulativi (быть, стать, казаться)', exerciseCount: 7, ruleId: 'rule-nominal-pred' },
+      { id: 'sec2-infinitive-role', name: 'L\'infinito come soggetto e predicato', exerciseCount: 6, ruleId: 'rule-infinitive-role' },
+      { id: 'sec2-quant-agreement', name: 'Accordo del predicato con soggetti quantitativi', exerciseCount: 7, ruleId: 'rule-quant-agreement' },
+      { id: 'sec2-homogeneous', name: 'Membri omogenei e congiunzioni coordinanti', exerciseCount: 8, ruleId: 'rule-homogeneous' },
+      { id: 'sec2-isolated-attrib', name: 'Attributi isolati e costrutti participiali (Причастный оборот)', exerciseCount: 8, ruleId: 'rule-isolated-attrib' },
+      { id: 'sec2-isolated-adverb', name: 'Gerundi e circostanze isolate (Деепричастный оборот)', exerciseCount: 8, ruleId: 'rule-isolated-adverb' },
+      { id: 'sec2-apposition', name: 'Apposizioni isolate (Обособленные приложения)', exerciseCount: 5, ruleId: 'rule-apposition' },
+      { id: 'sec2-clarification', name: 'Precisazioni isolate (Обособленные уточнения)', exerciseCount: 5, ruleId: 'rule-clarification' },
+      { id: 'sec2-one-member', name: 'Frasi monovarianti (Односоставные: определенно-, неопределенно-, безличные)', exerciseCount: 8, ruleId: 'rule-one-member' },
+      { id: 'sec2-word-order', name: 'Ordine delle parole e articolazione attuale (Актуальное членение)', exerciseCount: 7, ruleId: 'rule-word-order' },
+      { id: 'sec2-lit-revision', name: 'Materiale di ripasso su brani classici (Раздел 2)', exerciseCount: 7, ruleId: 'rule-lit-sec2' },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Sezione 3: La Frase Complessa (Сложное предложение)',
+    russianTitle: 'Раздел 3. Сложное предложение',
+    pages: 'pp. 264–372',
+    summary:
+      'Frasi coordinate (congiunzioni copulative, avversative, disgiuntive, correlative), subordinate (esplicative, relative, temporali, causali, finali, concessive, comparative) e proposizioni asindetiche.',
+    topics: [
+      { id: 'sec3-compound-coord', name: 'Coordinate copulative, avversative e disgiuntive (а/но, то...то, не только...но и)', exerciseCount: 8, ruleId: 'rule-compound-coord' },
+      { id: 'sec3-sub-explicative', name: 'Subordinate esplicative (что, как, будто, ли, чтобы, указательное то)', exerciseCount: 9, ruleId: 'rule-sub-explicative' },
+      { id: 'sec3-sub-relative', name: 'Subordinate relative (который, какой, чей, где, когда)', exerciseCount: 8, ruleId: 'rule-sub-relative' },
+      { id: 'sec3-sub-time', name: 'Subordinate temporali (когда, пока, с тех пор как, прежде чем)', exerciseCount: 8, ruleId: 'rule-sub-time' },
+      { id: 'sec3-sub-cause-res', name: 'Subordinate causali e consecutive (потому что vs оттого что, так что)', exerciseCount: 8, ruleId: 'rule-sub-cause-res' },
+      { id: 'sec3-sub-purpose', name: 'Subordinate finali (чтобы, для того чтобы, лишь бы)', exerciseCount: 7, ruleId: 'rule-sub-purpose' },
+      { id: 'sec3-sub-condition', name: 'Subordinate condizionali (если, раз, как)', exerciseCount: 6, ruleId: 'rule-sub-condition' },
+      { id: 'sec3-sub-concession', name: 'Subordinate concessive (хотя, пусть, несмотря на то что)', exerciseCount: 7, ruleId: 'rule-sub-concession' },
+      { id: 'sec3-sub-manner-degree', name: 'Subordinate di modo, grado e comparative (так...что, как будто, словно)', exerciseCount: 7, ruleId: 'rule-sub-manner-degree' },
+      { id: 'sec3-asyndetic', name: 'Frasi asindetiche (Бессоюзные предложения: due punti e trattino)', exerciseCount: 6, ruleId: 'rule-asyndetic' },
+      { id: 'sec3-lit-revision', name: 'Materiale di ripasso e brani letterari (Раздел 3)', exerciseCount: 8, ruleId: 'rule-lit-sec3' },
+    ],
+  },
+];

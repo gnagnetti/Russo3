@@ -1,0 +1,6 @@
+{
+  "name": "Russian Syntax Tutor - O.I. Glazunova",
+  "description": "Tutor interattivo e offline di sintassi russa (B2–C1) basato sul manuale di O.I. Glazunova (Zlatoust, 2011). Esercizi a scelta multipla con spiegazioni grammaticali in italiano e chiavi del testo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
